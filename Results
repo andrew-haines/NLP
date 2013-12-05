@@ -384,7 +384,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4916|        0.7556|        0.4912|        0.5949|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['dvd'] vs testing: ['electronics']
+training: ['dvd'] vs testing: ['electronics'] (3793 training documents and 419 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -422,7 +422,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.5031|        0.7654|        0.5009|        0.6054|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['book'] vs testing: ['kitchen']
+training: ['book'] vs testing: ['kitchen'] (2831 training documents and 511 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -460,7 +460,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4961|        0.8054|        0.4925|        0.6108|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['electronics'] vs testing: ['kitchen']
+training: ['electronics'] vs testing: ['kitchen'] (3771 training documents and 511 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -498,7 +498,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4982|        0.8017|        0.4995|        0.6153|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['kitchen'] vs testing: ['kitchen']
+training: ['kitchen'] vs testing: ['kitchen'] (4598 training documents and 511 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -536,7 +536,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4912|        0.8020|        0.4878|        0.6064|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['dvd'] vs testing: ['kitchen']
+training: ['dvd'] vs testing: ['kitchen'] (3793 training documents and 511 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -574,7 +574,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4924|        0.7998|        0.4920|        0.6091|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['book'] vs testing: ['dvd']
+training: ['book'] vs testing: ['dvd'] (2831 training documents and 421 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -612,7 +612,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4936|        0.7609|        0.4900|        0.5959|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['electronics'] vs testing: ['dvd']
+training: ['electronics'] vs testing: ['dvd'] (3771 training documents and 421 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -650,7 +650,7 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.5010|        0.7648|        0.4984|        0.6034|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['kitchen'] vs testing: ['dvd']
+training: ['kitchen'] vs testing: ['dvd'] (4598 training documents and 421 test documents)
 
 _____________________________________________________________________________________________________________________________________________________
 |Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
@@ -688,5 +688,415 @@ ________________________________________________________________________________
 |SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.4869|        0.7473|        0.4941|        0.5946|
 _____________________________________________________________________________________________________________________________________________________
 
-training: ['dvd'] vs testing: ['dvd']
+training: ['dvd'] vs testing: ['dvd'] (3793 training documents and 421 test documents)
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.9496|        0.9823|        0.9511|        0.9664|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.9306|        0.9913|        0.9171|        0.9527|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.7219|        0.8207|        0.8128|        0.8166|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.9515|        0.9855|        0.9505|        0.9676|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.7368|        0.8244|        0.8321|        0.8281|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.5057|        0.7676|        0.5034|        0.6077|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.5097|        0.7694|        0.5100|        0.6133|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6772|        0.8048|        0.7611|        0.7823|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.9475|        0.9877|        0.9430|        0.9647|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.4952|        0.7528|        0.5028|        0.6023|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.4981|        0.7689|        0.4888|        0.5974|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.4948|        0.7644|        0.4882|        0.5955|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.5126|        0.7672|        0.5181|        0.6180|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6321|        0.8048|        0.6832|        0.7388|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.4955|        0.7653|        0.4882|        0.5959|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.5002|        0.7628|        0.4997|        0.6034|
+____________________________________________________________________________________________________________________________________________________
+
+classifier: NaiveBayes@
+Most Informative Features
+           disappointing = True              NEG : POS    =     29.6 : 1.0
+                    weak = True              NEG : POS    =     16.7 : 1.0
+           dysfunctional = True              NEG : POS    =     13.6 : 1.0
+                 kidding = True              NEG : POS    =     13.6 : 1.0
+                rambling = True              NEG : POS    =     13.6 : 1.0
+                Danielle = True              NEG : POS    =     13.6 : 1.0
+                  Unless = True              NEG : POS    =     13.6 : 1.0
+                  poorly = True              NEG : POS    =     13.6 : 1.0
+                 shallow = True              NEG : POS    =     13.3 : 1.0
+                   Steel = True              NEG : POS    =     12.2 : 1.0
+classifier: NaiveBayes@nltk<PorterStemmer>
+Most Informative Features
+                  poorli = True              NEG : POS    =     14.5 : 1.0
+                 endless = True              NEG : POS    =     13.3 : 1.0
+                   bottl = True              NEG : POS    =     10.7 : 1.0
+                 mediocr = True              NEG : POS    =     10.7 : 1.0
+                  pigeon = True              NEG : POS    =     10.7 : 1.0
+                    rear = True              NEG : POS    =     10.7 : 1.0
+               caricatur = True              NEG : POS    =     10.7 : 1.0
+                outstand = True              POS : NEG    =     10.4 : 1.0
+               superfici = True              NEG : POS    =     10.1 : 1.0
+                 shallow = True              NEG : POS    =     10.1 : 1.0
+classifier: NaiveBayes@nltk<LancasterStemmer>
+Most Informative Features
+                outstand = True              POS : NEG    =     10.7 : 1.0
+                   bottl = True              NEG : POS    =     10.7 : 1.0
+                 mediocr = True              NEG : POS    =     10.7 : 1.0
+                  pigeon = True              NEG : POS    =     10.7 : 1.0
+                    rear = True              NEG : POS    =     10.7 : 1.0
+                 shallow = True              NEG : POS    =     10.1 : 1.0
+                   rambl = True              NEG : POS    =     10.1 : 1.0
+                  superf = True              NEG : POS    =      9.5 : 1.0
+                   moron = True              NEG : POS    =      9.3 : 1.0
+                disjoint = True              NEG : POS    =      9.3 : 1.0
+classifier: NaiveBayes@SimpleExtractor
+Most Informative Features
+           disappointing = True              NEG : POS    =     30.4 : 1.0
+                    weak = True              NEG : POS    =     16.7 : 1.0
+                rambling = True              NEG : POS    =     15.0 : 1.0
+                  poorly = True              NEG : POS    =     14.5 : 1.0
+                 shallow = True              NEG : POS    =     14.2 : 1.0
+           dysfunctional = True              NEG : POS    =     13.6 : 1.0
+                 kidding = True              NEG : POS    =     13.6 : 1.0
+                 endless = True              NEG : POS    =     13.3 : 1.0
+                  pigeon = True              NEG : POS    =     10.7 : 1.0
+                 borders = True              NEG : POS    =     10.7 : 1.0
+                 
+classifier: SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@
+POS: good -> 74
+POS: great -> 53
+POS: best -> 47
+POS: wonderful -> 16
+POS: excellent -> 16
+NEG: bad -> 17
+NEG: worst -> 5
+NEG: terrible -> 3
+NEG: awful -> 2
+NEG: inconsequential -> 1
+classifier: SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>
+POS: good -> 80
+POS: great -> 58
+POS: best -> 48
+POS: wonder -> 26
+POS: excel -> 19
+NEG: bad -> 17
+NEG: worst -> 5
+NEG: terribl -> 5
+NEG: trash -> 2
+NEG: nightmar -> 2
+classifier: SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>
+POS: good -> 80
+POS: gre -> 62
+POS: best -> 48
+POS: wond -> 26
+POS: excel -> 19
+NEG: bad -> 18
+NEG: aw -> 7
+NEG: worst -> 5
+NEG: trash -> 2
+NEG: nightm -> 2
+classifier: SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor
+POS: good -> 79
+POS: great -> 58
+POS: best -> 48
+POS: excellent -> 18
+POS: wonderful -> 17
+NEG: bad -> 17
+NEG: worst -> 5
+NEG: terrible -> 3
+NEG: awful -> 2
+NEG: trash -> 2
+classifier: SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@
+POS: treat -> 5
+POS: appreciation -> 5
+POS: strategic -> 5
+POS: shift -> 5
+POS: revealing -> 4
+NEG: remotely -> 3
+NEG: ha -> 2
+NEG: input -> 2
+NEG: obstacle -> 2
+NEG: blah -> 2
+classifier: SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>
+POS: valley -> 3
+POS: battlefield -> 3
+POS: wheel -> 3
+POS: delic -> 3
+POS: ian -> 3
+NEG: curio -> 3
+NEG: firstli -> 2
+NEG: consolid -> 2
+NEG: texa -> 2
+NEG: knit -> 2
+classifier: SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>
+POS: strategic -> 5
+POS: exc -> 4
+POS: valley -> 3
+POS: battlefield -> 3
+POS: wheel -> 3
+NEG: clo -> 17
+NEG: ana -> 12
+NEG: ha -> 3
+NEG: curio -> 3
+NEG: anom -> 2
+classifier: SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor
+POS: treat -> 6
+POS: appreciation -> 5
+POS: strategic -> 5
+POS: shift -> 5
+POS: revealing -> 4
+NEG: ha -> 3
+NEG: remotely -> 3
+NEG: input -> 2
+NEG: firstly -> 2
+NEG: obstacle -> 2
+classifier: SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@
+POS: the -> 286
+POS: and -> 282
+POS: of -> 277
+POS: to -> 270
+POS: a -> 266
+NEG: the -> 286
+NEG: and -> 282
+NEG: of -> 277
+NEG: to -> 270
+NEG: a -> 266
+classifier: SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>
+POS: like -> 96
+POS: good -> 80
+POS: would -> 80
+POS: author -> 77
+POS: stori -> 74
+NEG: like -> 96
+NEG: good -> 80
+NEG: would -> 80
+NEG: author -> 77
+NEG: stori -> 74
+classifier: SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>
+POS: lik -> 96
+POS: us -> 95
+POS: ev -> 94
+POS: real -> 81
+POS: good -> 80
+NEG: lik -> 96
+NEG: us -> 95
+NEG: ev -> 94
+NEG: real -> 81
+NEG: good -> 80
+classifier: SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor
+POS: like -> 91
+POS: would -> 80
+POS: good -> 79
+POS: reading -> 76
+POS: well -> 71
+NEG: like -> 91
+NEG: would -> 80
+NEG: good -> 79
+NEG: reading -> 76
+NEG: well -> 71
+
+
+
+training document size: 50
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.5676|        0.7934|        0.4986|        0.6088|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.4819|        0.8531|        0.2916|        0.4280|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.6419|        0.7288|        0.7567|        0.7422|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.5978|        0.7868|        0.5647|        0.6554|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.6502|        0.7249|        0.7865|        0.7541|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.4975|        0.6855|        0.4874|        0.5694|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.5571|        0.7383|        0.5447|        0.6261|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6486|        0.7227|        0.7879|        0.7536|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.5819|        0.8053|        0.5121|        0.6236|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.5784|        0.7583|        0.5609|        0.6443|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.5990|        0.7614|        0.6009|        0.6714|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.5086|        0.6864|        0.5158|        0.5890|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.4937|        0.6848|        0.4777|        0.5625|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6537|        0.7227|        0.8000|        0.7592|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.3238|        0.5950|        0.0223|        0.0428|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.5746|        0.7632|        0.5465|        0.6364|
+_____________________________________________________________________________________________________________________________________________________
+
+training document size: 100
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.5981|        0.7860|        0.5688|        0.6514|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.5778|        0.8501|        0.4670|        0.5897|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.6470|        0.7285|        0.7698|        0.7484|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.6470|        0.7942|        0.6530|        0.7126|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.6486|        0.7258|        0.7795|        0.7516|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.4905|        0.6738|        0.4912|        0.5674|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.5384|        0.7471|        0.4902|        0.5907|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6397|        0.7191|        0.7753|        0.7460|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.6184|        0.7932|        0.6005|        0.6766|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.5765|        0.7491|        0.5698|        0.6463|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.6006|        0.7598|        0.6060|        0.6734|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.5060|        0.6845|        0.5126|        0.5857|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.5092|        0.6838|        0.5223|        0.5921|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6575|        0.7278|        0.7963|        0.7603|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.3832|        0.7327|        0.1544|        0.2535|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.5794|        0.7518|        0.5721|        0.6488|
+____________________________________________________________________________________________________________________________________________________
+
+training document size: 500
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.6835|        0.9076|        0.5991|        0.7191|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.5940|        0.9550|        0.4274|        0.5851|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.6505|        0.7301|        0.7740|        0.7513|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.7013|        0.9120|        0.6237|        0.7385|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.6457|        0.7252|        0.7753|        0.7492|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.5197|        0.7937|        0.4014|        0.5303|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.5927|        0.7847|        0.5558|        0.6504|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6619|        0.7311|        0.7986|        0.7632|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.6914|        0.9112|        0.6088|        0.7283|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.6032|        0.7841|        0.5781|        0.6652|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.6505|        0.8028|        0.6474|        0.7162|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.5540|        0.8429|        0.4288|        0.5631|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.5838|        0.8199|        0.5023|        0.6174|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6511|        0.7241|        0.7902|        0.7555|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.5041|        0.8053|        0.3609|        0.4930|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.6416|        0.8004|        0.6330|        0.7068|
+_____________________________________________________________________________________________________________________________________________________
+
+training document size: 1000
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.7873|        0.9438|        0.7326|        0.8237|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.7057|        0.9719|        0.5865|        0.7294|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.6413|        0.7240|        0.7670|        0.7447|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.7844|        0.9444|        0.7279|        0.8213|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.6479|        0.7268|        0.7763|        0.7505|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.6254|        0.8532|        0.5456|        0.6650|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.6343|        0.8170|        0.5991|        0.6905|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6683|        0.7350|        0.8047|        0.7680|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.7898|        0.9456|        0.7349|        0.8261|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.6533|        0.8249|        0.6251|        0.7106|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.6625|        0.8325|        0.6344|        0.7195|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.6559|        0.8515|        0.6005|        0.7027|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.6597|        0.8389|        0.6214|        0.7119|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6467|        0.7175|        0.7953|        0.7542|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.6248|        0.8531|        0.5442|        0.6639|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.6644|        0.8373|        0.6321|        0.7200|
+____________________________________________________________________________________________________________________________________________________
+
+training document size: 2831
+
+_____________________________________________________________________________________________________________________________________________________
+|Classifier Name                                                                        |      Accuracy|     Precision|        Recall|      FMeasure|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<LancasterStemmer>                                                      |        0.8952|        0.9783|        0.8660|        0.9183|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@                                                                            |        0.8498|        0.9928|        0.7856|        0.8764|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@                            |        0.6375|        0.7227|        0.7609|        0.7411|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@SimpleExtractor                                                             |        0.9263|        0.9863|        0.9047|        0.9436|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@SimpleExtractor             |        0.6562|        0.7311|        0.7851|        0.7566|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@SimpleExtractor           |        0.6981|        0.6960|        0.9902|        0.8174|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<LancasterStemmer>     |        0.7244|        0.8451|        0.7302|        0.7832|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<PorterStemmer>         |        0.6610|        0.7308|        0.7972|        0.7624|
+_____________________________________________________________________________________________________________________________________________________
+|NaiveBayes@nltk<PorterStemmer>                                                         |        0.9098|        0.9836|        0.8828|        0.9302|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@nltk<PorterStemmer>        |        0.7600|        0.8658|        0.7674|        0.8133|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@SimpleExtractor            |        0.7838|        0.8724|        0.8005|        0.8348|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<PorterStemmer>       |        0.6946|        0.6954|        0.9833|        0.8146|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@nltk<LancasterStemmer>    |        0.6889|        0.6932|        0.9763|        0.8107|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[StaticWordListTrainingFeatureFilter]@nltk<LancasterStemmer>      |        0.6492|        0.7225|        0.7893|        0.7543|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopFrequencyWordTrainingFeatureFilter]@                          |        0.6987|        0.6974|        0.9870|        0.8173|
+_____________________________________________________________________________________________________________________________________________________
+|SimpleCountClassifier[TopRankedNWordsTrainingFeatureFilter]@                           |        0.7479|        0.8508|        0.7647|        0.8053|
+_____________________________________________________________________________________________________________________________________________________
 
